@@ -1,3 +1,0 @@
-<?php
-
-/* Neko Customizer class */
