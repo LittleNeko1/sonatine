@@ -9,8 +9,16 @@
 
 get_header(); ?>
 
+$contentSpan = '';
+$contentSpan = (is_active_sidebar( 'sidebar-1' ) ? 'col-md-8' : 'col-md-12');
+?>
+
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+	<div class="container">
+		<div class="row">
+
+			<div class="<?php  echo $contentSpan; ?>">
 
 		<?php
 		if ( have_posts() ) : ?>
@@ -39,7 +47,9 @@ get_header(); ?>
 			get_template_part( 'template-parts/content', 'none' );
 
 		endif; ?>
-
+</div><!-- col md -->
+		</div><!-- container -->
+	</div><!-- row -->
 		</main><!-- #main -->
 	</section><!-- #primary -->
 
