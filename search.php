@@ -19,8 +19,8 @@ $contentSpan = (is_active_sidebar( 'sidebar-1' ) ? 'col-md-8' : 'col-md-12');
 	<div class="container">
 		<div class="row">
 
-			<h1>This is a search form</h1>
-			
+			<h1>This is a search <span>form</span> </h1>
+
 			<div class="<?php  echo $contentSpan; ?>">
 
 		<?php
