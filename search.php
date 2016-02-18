@@ -7,11 +7,11 @@
  * @package Sonatine
  */
 
-get_header(); ?>
+
 
 $contentSpan = '';
 $contentSpan = (is_active_sidebar( 'sidebar-1' ) ? 'col-md-8' : 'col-md-12');
-
+get_header();
 ?>
 
 	<section id="primary" class="content-area">
