@@ -11,6 +11,7 @@ get_header(); ?>
 
 $contentSpan = '';
 $contentSpan = (is_active_sidebar( 'sidebar-1' ) ? 'col-md-8' : 'col-md-12');
+
 ?>
 
 	<section id="primary" class="content-area">
@@ -18,6 +19,8 @@ $contentSpan = (is_active_sidebar( 'sidebar-1' ) ? 'col-md-8' : 'col-md-12');
 	<div class="container">
 		<div class="row">
 
+			<h1> Search form </h1>
+			
 			<div class="<?php  echo $contentSpan; ?>">
 
 		<?php
