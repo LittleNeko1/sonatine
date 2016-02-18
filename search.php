@@ -57,5 +57,6 @@ $contentSpan = (is_active_sidebar( 'sidebar-1' ) ? 'col-md-8' : 'col-md-12');
 	</section><!-- #primary -->
 
 <?php
+
 get_sidebar();
 get_footer();
