@@ -6,12 +6,17 @@
  *
  * @package Sonatine
  */
-
+$contentSpan = '';
+	$contentSpan = (is_active_sidebar( 'sidebar-1' ) ? 'col-md-8' : 'col-md-12');
 get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+<div class="container">
+		<div class="row">
+			
 
+			<div class="<?php  echo $contentSpan; ?>">
 		<?php
 		if ( have_posts() ) : ?>
 
@@ -43,9 +48,15 @@ get_header(); ?>
 
 		endif; ?>
 
+	</div>
+
+	<?php get_sidebar(); ?>
+
+</div>
+</div>
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();

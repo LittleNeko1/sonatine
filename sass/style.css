@@ -344,8 +344,7 @@ hr {
   margin-bottom: 1.5em; }
 
 ul, ol {
-  margin: 0 0 1.5em 0;
-}
+  margin: 0 0 1.5em 3em; }
 
 ul {
   list-style: disc; }
@@ -639,11 +638,6 @@ a {
   /* Make sure select elements fit in widgets. */ }
   .widget select {
     max-width: 100%; }
-<<<<<<< HEAD
-  .widget ul {
-    padding-left: 0; }
-=======
->>>>>>> master
 
 /*--------------------------------------------------------------
 # Content
