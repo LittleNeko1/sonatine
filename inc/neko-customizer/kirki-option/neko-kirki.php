@@ -5,6 +5,8 @@ Kirki::add_config( 'sonatine', array(
 	'option_type'   => 'theme_mod',
 ) );
 
+/* kirk I18n */
+require get_template_directory() . '/inc/neko-customizer/kirki-option/_kirki-i18n.php';
 
 /* Skin */
 require get_template_directory() . '/inc/neko-customizer/kirki-option/_skin.php';
@@ -14,3 +16,8 @@ require get_template_directory() . '/inc/neko-customizer/kirki-option/_custom-cs
 
 /* 404 */
 require get_template_directory() . '/inc/neko-customizer/kirki-option/_404.php';
+
+
+
+
+
