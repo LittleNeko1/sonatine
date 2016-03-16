@@ -16,8 +16,3 @@ require get_template_directory() . '/inc/neko-customizer/kirki-option/_custom-cs
 
 /* 404 */
 require get_template_directory() . '/inc/neko-customizer/kirki-option/_404.php';
-
-
-
-
-
