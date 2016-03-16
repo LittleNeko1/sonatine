@@ -1,60 +1,63 @@
 .main-navigation {
-	clear: both;
 	display: block;
 	float: left;
-	width: 100%;
-
 	ul {
+		@extend %clearfix;
 		display: none;
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
 
-		ul {
-			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-			float: left;
-			position: absolute;
-			top: 1.5em;
-			left: -999em;
-			z-index: 99999;
-
+		@media screen and (min-width: 37.5em) {
 			ul {
+				box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+				float: left;
+				position: absolute;
 				left: -999em;
-				top: 0;
-			}
+				z-index: 99999;
+				background-color: #fff;
+				ul {
+					left: -999em;
+					top: 0;
+				}
 
-			li {
-				&:hover > ul,
-				&.focus > ul {
-					left: 100%;
+				li {
+					&:hover > ul,
+					&.focus > ul {
+						left: 100%;
+					}
+				}
+
+				a {
+					min-width: 200px;
+					white-space: nowrap;
+				}
+
+				:hover > a,
+				.focus > a {
+				}
+
+				a:hover,
+				a.focus {
 				}
 			}
 
-			a {
-				width: 200px;
+			li:hover > ul,
+			li.focus > ul {
+				left: auto;
+				display:block;
 			}
 
-			:hover > a,
-			.focus > a {
-			}
 
-			a:hover,
-			a.focus {
-			}
 		}
 
-		li:hover > ul,
-		li.focus > ul {
-			left: auto;
-		}
-	}
-	
-	li {
-		float: left;
-		position: relative;
+		li {
+			float: left;
+			position: relative;
 
-		&:hover > a,
-		&.focus > a {
+			&:hover > a,
+			&.focus > a {
+			}
 		}
 	}
 	
@@ -71,20 +74,76 @@
 }
 
 /* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
+
+.menu-toggle{
 	display: block;
+	padding: 9px 10px;
+	margin: 10px 0; 
+	.icon-bar {
+		background-color: #444;
+		display: block;
+		width: 22px;
+		height: 2px;
+		border-radius: 1px;
+	}
+	.icon-bar+.icon-bar {
+		margin-top: 4px;
+	}
 }
+
+
+
+.main-navigation.toggled{
+
+	display: block;
+	float:none;
+
+	ul{
+		display: block;
+		float:none;
+	}
+
+	li{ 
+		display: block;
+		float:none;
+	}
+
+	li a{
+		padding: 1.25em;
+		border-bottom:1px solid #ededed;
+	}
+
+}
+
+
 
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
 		display: none;
+
+
 	}
-	.main-navigation ul {
-		display: block;
+	.main-navigation{
+
+
+		.nav-menu{
+			display: block;
+			a{
+				padding: 1.5em;
+			}
+			> li:not(:last-child) > a{
+				&:after {
+					content: '|';
+					position: absolute;
+					right: 0;
+					color: black;
+					top: 48%;
+					transform: translateY(-50%);
+				}
+			}
+		}
 	}
 }
-
 .comment-navigation,
 .posts-navigation,
 .post-navigation {

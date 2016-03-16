@@ -12,13 +12,13 @@
  * @package Sonatine
  */
 
-<?php
+
 	$contentSpan = '';
 	$contentSpan = (is_active_sidebar( 'sidebar-1' ) ? 'col-md-8' : 'col-md-12');
-?>
+
 
 get_header(); ?>
-
+?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 

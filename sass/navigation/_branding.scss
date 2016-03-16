@@ -1,0 +1,18 @@
+.site-branding{
+		padding: 30px 0;
+		@extend %clearfix;
+		.site-title{
+			float:left;
+			margin:0;
+			font-size: 2em;
+			line-height: 48px;
+			font-weight: normal;
+			font-family: "Marvel", sans-serif;
+			text-transform: uppercase;
+		}
+		.site-description{
+			float:right;
+			margin: 0;
+			line-height: 48px;
+		}
+}

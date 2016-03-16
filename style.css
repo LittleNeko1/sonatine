@@ -42,6 +42,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
+.site-branding, .main-navigation ul {
+  *zoom: 1; }
+  .site-branding:before, .main-navigation ul:before, .site-branding:after, .main-navigation ul:after {
+    content: " ";
+    display: table; }
+  .site-branding:after, .main-navigation ul:after {
+    clear: both; }
+
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -344,8 +352,7 @@ hr {
   margin-bottom: 1.5em; }
 
 ul, ol {
-  margin: 0 0 1.5em 0;
-}
+  margin: 0 0 1.5em 0; }
 
 ul {
   list-style: disc; }
@@ -487,53 +494,103 @@ a {
     outline: 0; }
 
 /*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+.site-branding {
+  padding: 30px 0; }
+  .site-branding .site-title {
+    float: left;
+    margin: 0;
+    font-size: 2em;
+    line-height: 48px;
+    font-weight: normal;
+    font-family: "Marvel", sans-serif;
+    text-transform: uppercase; }
+  .site-branding .site-description {
+    float: right;
+    margin: 0;
+    line-height: 48px; }
+
+/*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
-  clear: both;
   display: block;
-  float: left;
-  width: 100%; }
+  float: left; }
   .main-navigation ul {
     display: none;
     list-style: none;
     margin: 0;
     padding-left: 0; }
-    .main-navigation ul ul {
-      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-      float: left;
-      position: absolute;
-      top: 1.5em;
-      left: -999em;
-      z-index: 99999; }
-      .main-navigation ul ul ul {
+    @media screen and (min-width: 37.5em) {
+      .main-navigation ul ul {
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+        float: left;
+        position: absolute;
         left: -999em;
-        top: 0; }
-      .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
-        left: 100%; }
-      .main-navigation ul ul a {
-        width: 200px; }
-    .main-navigation ul li:hover > ul,
-    .main-navigation ul li.focus > ul {
-      left: auto; }
-  .main-navigation li {
-    float: left;
-    position: relative; }
+        z-index: 99999;
+        background-color: #fff; }
+        .main-navigation ul ul ul {
+          left: -999em;
+          top: 0; }
+        .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
+          left: 100%; }
+        .main-navigation ul ul a {
+          min-width: 200px;
+          white-space: nowrap; }
+      .main-navigation ul li:hover > ul,
+      .main-navigation ul li.focus > ul {
+        left: auto;
+        display: block; } }
+    .main-navigation ul li {
+      float: left;
+      position: relative; }
   .main-navigation a {
     display: block;
     text-decoration: none; }
 
 /* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
-  display: block; }
+.menu-toggle {
+  display: block;
+  padding: 9px 10px;
+  margin: 10px 0; }
+  .menu-toggle .icon-bar {
+    background-color: #444;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px; }
+  .menu-toggle .icon-bar + .icon-bar {
+    margin-top: 4px; }
+
+.main-navigation.toggled {
+  display: block;
+  float: none; }
+  .main-navigation.toggled ul {
+    display: block;
+    float: none; }
+  .main-navigation.toggled li {
+    display: block;
+    float: none; }
+  .main-navigation.toggled li a {
+    padding: 1.25em;
+    border-bottom: 1px solid #ededed; }
 
 @media screen and (min-width: 37.5em) {
   .menu-toggle {
     display: none; }
 
-  .main-navigation ul {
-    display: block; } }
+  .main-navigation .nav-menu {
+    display: block; }
+    .main-navigation .nav-menu a {
+      padding: 1.5em; }
+    .main-navigation .nav-menu > li:not(:last-child) > a:after {
+      content: '|';
+      position: absolute;
+      right: 0;
+      color: black;
+      top: 48%;
+      transform: translateY(-50%); } }
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
@@ -639,11 +696,8 @@ a {
   /* Make sure select elements fit in widgets. */ }
   .widget select {
     max-width: 100%; }
-<<<<<<< HEAD
   .widget ul {
     padding-left: 0; }
-=======
->>>>>>> master
 
 /*--------------------------------------------------------------
 # Content
@@ -766,5 +820,3 @@ object {
 
 .gallery-caption {
   display: block; }
-
-/*# sourceMappingURL=style.css.map */
