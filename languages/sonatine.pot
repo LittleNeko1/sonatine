@@ -1,225 +1,700 @@
-# Copyright (C) 2016 Automattic
-# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: _s 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2015-09-16 19:02:07+00:00\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Sonatine\n"
+"POT-Creation-Date: 2016-03-16 16:58+0100\n"
+"PO-Revision-Date: 2016-03-16 16:57+0100\n"
+"Last-Translator: Little neko team <contact@little-neko.com>\n"
+"Language-Team: Little neko team <contact@little-neko.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: 404.php:17
-#@ _s
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
 #: 404.php:21
-#@ _s
-msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
 msgstr ""
 
-#: 404.php:29
-#@ _s
+#: 404.php:33
 msgid "Most Used Categories"
 msgstr ""
 
 #. translators: %1$s: smiley
-#: 404.php:46
+#: 404.php:51
 #, php-format
-#@ _s
 msgid "Try looking in the monthly archives. %1$s"
 msgstr ""
 
 #: comments.php:31
 #, php-format
-#@ _s
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: comments.php:40
-#: comments.php:61
-#@ _s
+#: comments.php:40 comments.php:61
 msgid "Comment navigation"
 msgstr ""
 
-#: comments.php:43
-#: comments.php:64
-#@ _s
+#: comments.php:43 comments.php:64
 msgid "Older Comments"
 msgstr ""
 
-#: comments.php:44
-#: comments.php:65
-#@ _s
+#: comments.php:44 comments.php:65
 msgid "Newer Comments"
 msgstr ""
 
-#: comments.php:77
-#@ _s
+#: comments.php:78
 msgid "Comments are closed."
 msgstr ""
 
-#: footer.php:18
-#@ _s
+#: footer.php:26
 msgid "https://wordpress.org/"
 msgstr ""
 
-#: footer.php:18
+#: footer.php:26
 #, php-format
-#@ _s
 msgid "Proudly powered by %s"
 msgstr ""
 
-#: footer.php:20
+#: footer.php:28
 #, php-format
-#@ _s
 msgid "Theme: %1$s by %2$s."
 msgstr ""
 
 #: functions.php:47
-#@ _s
 msgid "Primary"
 msgstr ""
 
-#: functions.php:102
-#@ _s
+#: functions.php:109
 msgid "Sidebar"
 msgstr ""
 
 #: header.php:25
-#@ _s
 msgid "Skip to content"
 msgstr ""
 
-#: header.php:38
-#@ _s
-msgid "Primary Menu"
+#: inc/neko-customizer/kirki-option/_404.php:6
+msgid "List of pages"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_404.php:15
+msgid "404 Error Page"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_404.php:16
+msgid "Select a page that will be used as your 404 page"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_custom-css.php:6
+msgid "Enter your custom CSS below"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_custom-css.php:14
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_custom-css.php:15
+msgid "The css code inserted here will override any style"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:5
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:48
+msgid "Background Color"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:6
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:49
+msgid "Background Image"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:7
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:50
+msgid "No Repeat"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:8
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:51
+msgid "Repeat All"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:9
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:52
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:10
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:53
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:11
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:54
+msgid "Inherit"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:12
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:55
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:13
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:56
+msgid "Cover"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:14
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:57
+msgid "Contain"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:15
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:58
+msgid "Background Size"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:16
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:59
+msgid "Fixed"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:17
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:60
+msgid "Scroll"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:18
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:61
+msgid "Background Attachment"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:19
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:62
+msgid "Left Top"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:20
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:63
+msgid "Left Center"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:21
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:64
+msgid "Left Bottom"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:22
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:65
+msgid "Right Top"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:23
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:66
+msgid "Right Center"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:24
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:67
+msgid "Right Bottom"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:25
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:68
+msgid "Center Top"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:26
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:69
+msgid "Center Center"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:27
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:70
+msgid "Center Bottom"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:28
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:71
+msgid "Background Position"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:29
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:72
+msgid "Background Opacity"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:30
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:73
+msgid "ON"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:31
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:74
+msgid "OFF"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:32
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:75
+msgid "All"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:33
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:76
+msgid "Cyrillic"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:34
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:77
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:35
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:78
+msgid "Devanagari"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:36
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:79
+msgid "Greek"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:37
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:80
+msgid "Greek Extended"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:38
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:81
+msgid "Khmer"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:39
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:82
+msgid "Latin"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:40
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:83
+msgid "Latin Extended"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:41
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:84
+msgid "Vietnamese"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:42
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:85
+msgid "Hebrew"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:43
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:86
+msgid "Arabic"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:44
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:87
+msgid "Bengali"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:45
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:88
+msgid "Gujarati"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:46
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:89
+msgid "Tamil"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:47
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:90
+msgid "Telugu"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:48
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:91
+msgid "Thai"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:49
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:92
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:50
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:93
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:51
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:94
+msgctxt "font style"
+msgid "Monospace"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:52
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:95
+msgid "Font Family"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:53
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:96
+msgid "Font Size"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:54
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:97
+msgid "Font Weight"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:55
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:98
+msgid "Line Height"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:56
+msgid "Font Style"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:57
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:99
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:58
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:100
+msgid "Top"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:59
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:101
+msgid "Bottom"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:60
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:102
+msgid "Left"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:61
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:103
+msgid "Right"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:62
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:104
+msgid "Color"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:63
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:105
+msgid "Add Image"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:64
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:106
+msgid "Change Image"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:65
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:107
+msgid "Remove"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:66
+#: inc/neko-customizer/kirki/includes/class-kirki-toolkit.php:108
+msgid "No Image Selected"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:67
+msgid "Select a font-family"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:68
+msgid "Variant"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:69
+msgid "Subset"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:70
+msgid "Size"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:71
+msgid "Height"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:72
+msgid "Spacing"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:73
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:74
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:75
+msgid "Light 200"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:76
+msgid "Light 200 Italic"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:77
+msgid "Book 300"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:78
+msgid "Book 300 Italic"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:79
+msgid "Normal 400"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:80
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:81
+msgid "Medium 500"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:82
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:83
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:84
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:85
+msgid "Bold 700"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:86
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:87
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:88
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:89
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:90
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_kirki-i18n.php:91
+msgid "Invalid Value"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_skin.php:8
+msgid "Background color"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_skin.php:18
+msgid "Content background color"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_skin.php:29
+msgid "Neutral color"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_skin.php:39
+msgid "Text color"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_skin.php:49
+msgid "Accent color"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_skin.php:59
+msgid "Accent hover color"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_skin.php:68
+msgid "Site Colors"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_skin.php:83
+msgid "Button background color"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_skin.php:93
+msgid "Button text color"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_skin.php:103
+msgid "Button background Hover Color"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_skin.php:114
+msgid "Button text hover color"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_skin.php:123
+msgid "Button Colors"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_skin.php:136
+msgid "Colors"
+msgstr ""
+
+#: inc/neko-customizer/kirki-option/_skin.php:137
+msgid "Adjust the template main color to fit your needs"
+msgstr ""
+
+#: inc/neko-customizer/kirki/includes/controls/class-kirki-controls-repeater-control.php:28
+msgid "Add new row"
+msgstr ""
+
+#: inc/neko-customizer/kirki/tests/test-kirki.php:55
+#: inc/neko-customizer/kirki/tests/test-kirki.php:64
+#: inc/neko-customizer/kirki/tests/test-kirki.php:73
+#: inc/neko-customizer/kirki/tests/test-kirki.php:131
+msgid "My custom control"
+msgstr ""
+
+#: inc/neko-customizer/kirki/tests/test-kirki.php:142
+msgid "My custom control 2"
 msgstr ""
 
 #: inc/template-tags.php:28
 #, php-format
-#@ _s
 msgctxt "post date"
 msgid "Posted on %s"
 msgstr ""
 
 #: inc/template-tags.php:33
 #, php-format
-#@ _s
 msgctxt "post author"
 msgid "by %s"
 msgstr ""
 
 #. translators: used between list items, there is a space after the comma
-#: inc/template-tags.php:50
-#: inc/template-tags.php:56
-#@ _s
+#: inc/template-tags.php:50 inc/template-tags.php:56
 msgid ", "
 msgstr ""
 
 #: inc/template-tags.php:52
 #, php-format
-#@ _s
 msgid "Posted in %1$s"
 msgstr ""
 
 #: inc/template-tags.php:58
 #, php-format
-#@ _s
 msgid "Tagged %1$s"
 msgstr ""
 
 #: inc/template-tags.php:64
-#@ _s
 msgid "Leave a comment"
 msgstr ""
 
 #: inc/template-tags.php:64
-#@ _s
 msgid "1 Comment"
 msgstr ""
 
 #: inc/template-tags.php:64
-#, php-format
-#@ _s
 msgid "% Comments"
 msgstr ""
 
 #. translators: %s: Name of current post
-#: inc/template-tags.php:71
-#: template-parts/content-page.php:32
+#: inc/template-tags.php:71 template-parts/content-page.php:33
 #, php-format
-#@ _s
 msgid "Edit %s"
 msgstr ""
 
-#: search.php:18
+#: search.php:30
 #, php-format
-#@ _s
 msgid "Search Results for: %s"
 msgstr ""
 
 #: template-parts/content-none.php:14
-#@ _s
 msgid "Nothing Found"
 msgstr ""
 
-#: template-parts/content-none.php:20
+#: template-parts/content-none.php:21
 #, php-format
-#@ _s
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: template-parts/content-none.php:24
-#@ _s
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
 msgstr ""
 
-#: template-parts/content-none.php:29
-#@ _s
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
 msgstr ""
 
-#: template-parts/content-page.php:21
-#: template-parts/content-single.php:25
-#: template-parts/content.php:34
-#@ _s
+#: template-parts/content-page.php:22 template-parts/content.php:38
 msgid "Pages:"
 msgstr ""
 
 #. translators: %s: Name of current post.
-#: template-parts/content.php:27
+#: template-parts/content.php:33
 #, php-format
-#@ _s
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
+
 #. Theme Name of the plugin/theme
-msgid "_s"
+msgid "Sonatine"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-#@ _s
 msgid "http://underscores.me/"
 msgstr ""
 
 #. Description of the plugin/theme
-#@ _s
-msgid "Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for."
+msgid "Blog theme"
 msgstr ""
 
 #. Author of the plugin/theme
-#@ _s
-msgid "Automattic"
+msgid "Little Neko"
 msgstr ""
 
 #. Author URI of the plugin/theme
-#@ _s
-msgid "http://automattic.com/"
+msgid "http://www.little-neko.com/"
 msgstr ""
