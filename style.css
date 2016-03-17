@@ -26,9 +26,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Typography
 # Elements
 # Forms
-# Navigation
-	## Links
-	## Menus
+# Links
+# Menus
 # Accessibility
 # Alignments
 # Clearings
@@ -37,6 +36,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     ## Posts and pages
 	## Asides
 	## Comments
+
 # Infinite scroll
 # Media
 	## Captions
@@ -325,6 +325,30 @@ big {
   font-size: 125%; }
 
 /*--------------------------------------------------------------
+# Branding
+--------------------------------------------------------------*/
+.site-branding {
+  padding: 30px 0; }
+  .site-branding .site-title {
+    float: left;
+    margin: 0;
+    font-size: 2em;
+    line-height: 48px;
+    font-weight: normal;
+    font-family: "Marvel", sans-serif;
+    text-transform: uppercase; }
+  .site-branding .site-description {
+    float: right;
+    margin: 0;
+    line-height: 48px; }
+
+/*--------------------------------------------------------------
+# Page header
+--------------------------------------------------------------*/
+#header-image img {
+  width: 100%; }
+
+/*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
 html {
@@ -477,10 +501,7 @@ textarea {
   width: 100%; }
 
 /*--------------------------------------------------------------
-# Navigation
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-## Links
+# Links
 --------------------------------------------------------------*/
 a {
   color: royalblue; }
@@ -494,25 +515,7 @@ a {
     outline: 0; }
 
 /*--------------------------------------------------------------
-## Links
---------------------------------------------------------------*/
-.site-branding {
-  padding: 30px 0; }
-  .site-branding .site-title {
-    float: left;
-    margin: 0;
-    font-size: 2em;
-    line-height: 48px;
-    font-weight: normal;
-    font-family: "Marvel", sans-serif;
-    text-transform: uppercase; }
-  .site-branding .site-description {
-    float: right;
-    margin: 0;
-    line-height: 48px; }
-
-/*--------------------------------------------------------------
-## Menus
+# Menus
 --------------------------------------------------------------*/
 .main-navigation {
   display: block;
