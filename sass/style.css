@@ -276,6 +276,9 @@ h3 {
   padding: 12px 0 0;
   text-transform: uppercase; }
 
+ul, ol {
+  padding: 0; }
+
 p {
   margin-bottom: 1.5em; }
 
@@ -376,10 +379,10 @@ hr {
   margin-bottom: 1.5em; }
 
 ul, ol {
-  margin: 0; }
+  margin: 0 0 1.5em 0; }
 
 ul {
-  list-style: inside; }
+  list-style: disc; }
 
 ol {
   list-style: decimal; }
@@ -520,9 +523,6 @@ a {
 .main-navigation {
   display: block;
   float: left; }
-  .main-navigation a:hover,
-  .main-navigation a:focus {
-    text-decoration: none; }
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -544,11 +544,6 @@ a {
         .main-navigation ul ul a {
           min-width: 200px;
           white-space: nowrap; }
-        .main-navigation ul ul :hover > a,
-        .main-navigation ul ul .focus > a,
-        .main-navigation ul ul a:hover,
-        .main-navigation ul ul a.focus {
-          text-decoration: none; }
       .main-navigation ul li:hover > ul,
       .main-navigation ul li.focus > ul {
         left: auto;
