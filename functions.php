@@ -81,6 +81,18 @@ add_action( 'after_setup_theme', 'sonatine_setup' );
 
 endif;
 
+/* remove core inline styles */
+
+if( !function_exists('sonatine_remove_recent_comments_style') ):
+
+function sonatine_remove_recent_comments_style() {
+	global $wp_widget_factory;
+	remove_action( 'wp_head', array( $wp_widget_factory->widgets['WP_Widget_Recent_Comments'], 'recent_comments_style'  ) );
+}
+
+add_action( 'widgets_init', 'sonatine_remove_recent_comments_style' );
+
+endif;
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
