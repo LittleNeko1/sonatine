@@ -107,7 +107,7 @@
 
 	 	$(window).on('resize', function(){
 
-	 		if(Modernizr.mq('only all and (min-width: 37.5em)') ) {
+	 		if(Modernizr.mq('only all and (min-width: 1024px)') ) {
 	 			
 	 			if( $('.main-navigation').hasClass('toggled') )
 	 			$('.main-navigation').removeClass('toggled');

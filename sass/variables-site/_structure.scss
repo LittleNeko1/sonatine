@@ -1,2 +1,24 @@
-$size__site-main: 100%;
-$size__site-sidebar: 25%;
+/* $size__site-main: 100%;
+$size__site-sidebar: 25%; */
+
+
+/*--------------------------------------------------------------
+# Media queries breakpoints
+--------------------------------------------------------------*/
+$screen-menu-toggle-min: 1024px;  
+$screen-menu-toggle-max: ($screen-menu-toggle-min - 1);  
+// Extra small screen / phone              
+$screen-xs-min: 480px;           
+// Small screen / tablet          
+$screen-sm-min: 768px;
+
+// Medium screen / desktop          
+$screen-md-min:  992px;
+
+// Large screen / wide desktop                
+$screen-lg-min:1200px;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1);
+$screen-sm-max:              ($screen-md-min - 1);
+$screen-md-max:              ($screen-lg-min - 1);

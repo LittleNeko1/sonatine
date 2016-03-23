@@ -1,3 +1,20 @@
+$color__body-copy: #222;
+$color__headings: #555;
+
+$color__menu-link-bg: #eee;
+$color__menu-link: $color__body-copy;
+
+$color__menu-link-hover: white;
+$color__menu-link-hover-bg: #555;
+
+
+$color__sub-menu-link-bg: #fff;
+$color__sub-menu-link: $color__body-copy;
+
+$color__sub-menu-link-hover: white;
+$color__sub-menu-link-hover-bg: #555;
+
+
 $color__background-body: #fff;
 $color__background-screen: #f1f1f1;
 $color__background-hr: #ccc;
@@ -11,7 +28,6 @@ $color__text-input-focus: #111;
 $color__link: royalblue;
 $color__link-visited: purple;
 $color__link-hover: midnightblue;
-$color__text-main: #404040;
 
 $color__border-button: #ccc #ccc #bbb;
 $color__border-button-hover: #ccc #bbb #aaa;

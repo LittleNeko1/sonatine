@@ -6,8 +6,8 @@
 			margin:0;
 			font-size: 2em;
 			line-height: 48px;
-			font-weight: normal;
-			font-family: "Marvel", sans-serif;
+			font-weight: $font__weight-bold;
+			font-family: $font__family-headings;
 			text-transform: uppercase;
 		}
 		.site-description{

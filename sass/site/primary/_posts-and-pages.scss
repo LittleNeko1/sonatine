@@ -26,3 +26,8 @@
 	clear: both;
 	margin: 0 0 1.5em;
 }
+
+/* align sidebar with post content (h2 line-height interaction) */
+aside#secondary {
+	padding-top:10px;
+}

@@ -69,10 +69,14 @@
 						
 							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
 								<span class="sr-only">Toggle navigation</span>
+								<div class="burger">
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
+								</div>
+								<span class="menu-burger-label">menu</span>
 							</button>
+
 
 							<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 						</nav>

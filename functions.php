@@ -127,18 +127,17 @@ if( !function_exists('sonatine_scripts') ):
 
 	function sonatine_scripts() {
 
+		/* Bootstrap grid */
+		wp_enqueue_style( 'sonatine-grid', get_template_directory_uri() . '/inc/bootstrap/css/bootstrap.min.css' );
+
 		/* Main style */
 		wp_enqueue_style( 'sonatine-style', get_stylesheet_uri() );
 
 		/* Google font */
-		wp_enqueue_style( 'sonatine-google-font', 'http://fonts.googleapis.com/css?family=Marvel:400,700,700italic,400italic' );
+		wp_enqueue_style( 'sonatine-google-font', "https://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'");
 
 		/* Icon fonts */
 		wp_enqueue_style( 'sonatine-custom-icons', get_template_directory_uri() . '/inc/custom-icons/css/custom-icons.css' );
-
-		/* Bootstrap grid */
-		wp_enqueue_style( 'sonatine-grid', get_template_directory_uri() . '/inc/bootstrap.min.css' );
-
 
 		/* Modernizr */
 		wp_enqueue_script( 'sonatine-modernizr', get_template_directory_uri() . '/js/modernizr-custom.js', array(), '20151215', true );
